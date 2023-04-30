@@ -6,6 +6,8 @@ import React, { useEffect, useRef } from "react";
 import profilePic from "../../public/images/profile/developer-pic-3.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
+import Education from "@/components/Education";
 
 //* ANIMACION DE LOS NUMEROS *//
 const AnimatedNumbers = ({ value }) => {
@@ -95,7 +97,7 @@ const about = () => {
               {/* PROYECTOS */}
               <div className="flex flex-col items-center justify-center">
                 <span className="inline-block text-7xl font-bold">
-                  <AnimatedNumbers value={5} />+
+                  <AnimatedNumbers value={6} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75">
                   Proyectos Completos
@@ -113,6 +115,8 @@ const about = () => {
             </div>
           </div>
           <Skills />
+          <Experience />
+          <Education />
         </Layout>
       </main>
     </>
