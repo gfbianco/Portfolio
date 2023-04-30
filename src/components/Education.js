@@ -47,10 +47,10 @@ const Education = () => {
         {/* EXPERIENCIAS */}
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
-            type="Estudiante graduado de Ingeniería Informática"
+            type="Estudiante Egresado de Ingeniería Informática"
             time="2017-2023"
             place="Universidad Nacional Federico Villarreal"
-            info="Como estudiante graduado de Ingeniería Informática en la Universidad Nacional Federico 
+            info="Como estudiante egresado de Ingeniería Informática en la Universidad Nacional Federico 
             Villarreal, he adquirido una formación completa en el campo de la informática. Durante mi carrera, 
             he llevado cursos relevantes en áreas clave como estructuras de datos y algoritmos, ingeniería de 
             sistemas informáticos e inteligencia artificial.
