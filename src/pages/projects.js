@@ -6,7 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import {motion} from "framer-motion";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import imgtest from "../../public/images/projects/test.jpg";
+import project1 from "../../public/images/projects/devdatep.png";
+import project2 from "../../public/images/projects/coderhouse.png";
+import project4 from "../../public/images/projects/notaria.png";
+import project5 from "../../public/images/projects/patichat.png";
 
 //* INSTANCIANDO LA IMAGEN CON LA LIBRERIA MOTION *//
 const FramerImage = motion(Image);
@@ -161,7 +165,7 @@ const projects = () => {
                 img={project1}
                 summary="Se utilizo tecnologías como ReactJS, Tailwind CSS, Gitlab y Hostinger, 
                 para el desarrollo de un ERP para gestionar los procesos internos de la empresa."
-                link="/"
+                link="https://intranet.devdatep.com/"
                 github="/"
                 type="Proyecto Devdatep"
               />
@@ -171,9 +175,9 @@ const projects = () => {
             <div className="col-span-6">
               <Project
                 title="E-Commerce"
-                img={project1}
-                link="/"
-                github="/"
+                img={project2}
+                link="https://proyecto-coderhouse.onrender.com/"
+                github="https://github.com/Mittow/proyecto-coderhouse"
                 type="Proyecto CoderHouse"
               />
             </div>
@@ -182,9 +186,9 @@ const projects = () => {
             <div className="col-span-6">
               <Project
                 title="Pokedux"
-                img={project1}
+                img={imgtest}
                 link="/"
-                github="/"
+                github="https://github.com/Mittow/pokedux"
                 type="Proyecto Platzi"
               />
             </div>
@@ -193,9 +197,9 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="E.R.P. para digitalizar los procesos de una Notaria"
-                img={project1}
+                img={project4}
                 summary="Se utilizo tecnologías como NodeJS, Express, PostgreSQL y AWS, para el  
-                desarrollo de un ERP para digitalizar los procesos internos de la notaria."
+                desarrollo de un ERP para digitalizar los procesos internos de una notaria."
                 link="/"
                 github="/"
                 type="Proyecto Notaria"
@@ -205,22 +209,22 @@ const projects = () => {
             {/* PROYECTO 5 */}
             <div className="col-span-6">
               <Project
-                title="E-Commerce"
-                img={project1}
-                link="/"
-                github="/"
-                type="Proyecto Platzi"
+                title="PatiChat Frontend"
+                img={project5}
+                link="https://patichat.onrender.com"
+                github="https://github.com/Mittow/front-patichat"
+                type="Proyecto Personal"
               />
             </div>
 
             {/* PROYECTO 6 */}
             <div className="col-span-6">
               <Project
-                title="Portafolio con React"
-                img={project1}
-                link="/"
-                github="/"
-                type="Proyecto Udemy"
+                title="Patichat Backend"
+                img={project5}
+                link="https://patichat-backend.onrender.com"
+                github="https://github.com/Mittow/back-patichat"
+                type="Proyecto Personal"
               />
             </div>
           </div>
