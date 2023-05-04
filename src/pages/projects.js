@@ -9,6 +9,7 @@ import {motion} from "framer-motion";
 import imgtest from "../../public/images/projects/test.jpg";
 import project1 from "../../public/images/projects/devdatep.png";
 import project2 from "../../public/images/projects/coderhouse.png";
+import project3 from "../../public/images/projects/pokedux.png";
 import project4 from "../../public/images/projects/notaria.png";
 import project5 from "../../public/images/projects/patichat.png";
 
@@ -186,8 +187,8 @@ const projects = () => {
             <div className="col-span-6">
               <Project
                 title="Pokedux"
-                img={imgtest}
-                link="/"
+                img={project3}
+                link="https://pokedux-platzi.netlify.app/"
                 github="https://github.com/Mittow/pokedux"
                 type="Proyecto Platzi"
               />
