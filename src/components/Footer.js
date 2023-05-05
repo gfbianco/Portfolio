@@ -12,14 +12,14 @@ const Footer = () => {
 
   return (
     <footer
-      className="w-full border-t-2 border-solid border-dark
-      font-medium text-lg dark:text-light dark:border-light"
+      className="w-full border-t-2 border-solid border-dark font-medium text-lg dark:text-light 
+    dark:border-light sm:text-sm"
     >
-      <Layout className="py-8 flex items-center justify-between">
-        <span>
+      <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6">
+        <span className="sm:text-center">
           {new Date().getFullYear()} &copy; All Rihts Reserved to Gian Bianco.
         </span>
-        <div className="flex items-center">
+        <div className="flex items-center lg:py-2">
           Construido con
           <span className="text-primary dark:text-primaryDark text-2xl px-1">&#9825;</span>
           <Link
@@ -35,7 +35,7 @@ const Footer = () => {
             target="_blank"
             className="underline underline-offset-2"
           >
-            Tailwind CSS
+            Tailwind
           </Link>
         </div>
         <div>
