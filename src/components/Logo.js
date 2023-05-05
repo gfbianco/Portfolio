@@ -11,7 +11,7 @@ const Logo = () => {
         href="/"
         className="w-16 h-16 bg-dark text-light flex items-center justify-center
         rounded-full text-2xl font-bold font-quintessential border border-solid 
-        border-transparent dark:border-light"
+        border-transparent dark:border-light dark:border-2"
         whileHover={{
           backgroundColor: [
             "#121212",

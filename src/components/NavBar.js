@@ -15,7 +15,7 @@ import { motion } from "framer-motion"; //? BIBLIOTECA PARA LAS ANIMACIONES DE L
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 
 /* ESTRUCTURA DEL CADA OPCION DE NAVEGACION */
-const CustomLink = ({ href, title, className = "" }) => {
+const CustomLink = ({ href, title, className="" }) => {
   const router = useRouter();
 
   return (
@@ -38,7 +38,7 @@ const CustomLink = ({ href, title, className = "" }) => {
 };
 
 /* ESTRUCTURA DEL CADA OPCION DE NAVEGACION RESPONSIVE */
-const CustomMobileLink = ({ href, title, className = "", toggle }) => {
+const CustomMobileLink = ({ href, title, className="", toggle }) => {
   const router = useRouter();
 
   const handleClick = () => {
@@ -250,9 +250,9 @@ const NavBar = () => {
               ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
             >
               {mode === "dark" ? (
-                <MoonIcon className={"fill-dark"} />
+                <MoonIcon className={"fill-dark w-6"} />
               ) : (
-                <SunIcon className={"fill-dark"} />
+                <SunIcon className={"fill-dark w-6"} />
               )}
             </button>
           </nav>
