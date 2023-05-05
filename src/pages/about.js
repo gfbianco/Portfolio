@@ -41,13 +41,13 @@ const about = () => {
         <title>Mittow | About Page</title>
         <meta name="description" content="any description" />
       </Head>
-      <main className="flex w-full flex-col items-center justify-center">
+      <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText text="¡La pasión alimenta el propósito!" className="mb-16" />
           <div className="grid w-full grid-cols-8 gap-16">
             {/* ---------------------------------------------------------- */}
             <div className="col-span-3 flex flex-col items-start justify-start text-justify">
-              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">
+              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 Biografía
               </h2>
               {/* TEXTO DEL PERFIL */}
@@ -72,15 +72,19 @@ const about = () => {
             {/* ---------------------------------------------------------- */}
             <div
               className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark
-            bg-current"
+            bg-light p-8 dark:bg-dark dark:border-light"
             >
               {/* ESTE DIV HACE EL EFECTO DE 3D AL CONTENEDOR DE LA IMAGEN */}
-              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
+              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               {/* FOTO DE PERFIL */}
               <Image
                 src={profilePic}
                 alt="Gian Bianco"
                 className="w-full h-auto rounded-2xl"
+                priority
+                sizes="(max-width: 768px) 100vw,
+                (max-width: 1200px) 50vw,
+                33vw"
               />
             </div>
             {/* ---------------------------------------------------------- */}
@@ -90,7 +94,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={2} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   Clientes Satisfechos
                 </h2>
               </div>
@@ -99,7 +103,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={6} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   Proyectos Completos
                 </h2>
               </div>
@@ -108,7 +112,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={2} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   Años de Experiencia
                 </h2>
               </div>
