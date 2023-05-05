@@ -27,9 +27,9 @@ const Footer = () => {
             target="_blank"
             className="underline underline-offset-2"
           >
-            Next.js
+            Next
           </Link>
-          &nbsp; y &nbsp;
+          &nbsp;y&nbsp;
           <Link
             href="https://tailwindcss.com/"
             target="_blank"
