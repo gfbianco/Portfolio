@@ -49,10 +49,10 @@ const Education = () => {
         {/* EXPERIENCIAS */}
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Estudiante Egresado de Ingeniería Informática"
+            type="Egresado de Ingeniería Informática"
             time="2017-2023"
             place="Universidad Nacional Federico Villarreal"
-            info="Como estudiante egresado de Ingeniería Informática en la Universidad Nacional Federico 
+            info="Como estudiante de Ingeniería Informática en la Universidad Nacional Federico 
             Villarreal, he adquirido una formación completa en el campo de la informática. Durante mi carrera, 
             he llevado cursos relevantes en áreas clave como estructuras de datos y algoritmos, ingeniería de 
             sistemas informáticos e inteligencia artificial.
@@ -60,20 +60,6 @@ const Education = () => {
             incluyendo proyectos de software y proyectos de investigación en inteligencia artificial. Estos 
             proyectos me han permitido aplicar los conocimientos adquiridos en clase y mejorar mis habilidades
             de resolución de problemas en situaciones del mundo real."
-          />
-          <Details
-            type="Curso de desarrollo backend con NodeJS"
-            time="2021-2022"
-            place="CoderHouse"
-            info="En este curso, he aprendido a trabajar con NodeJS, un entorno de tiempo de ejecución de 
-            JavaScript que permite construir aplicaciones web del lado del servidor. También he aprendido 
-            a utilizar Express, un framework de NodeJS que permite crear aplicaciones web de manera rápida 
-            y sencilla. Además, he aprendido a trabajar con MongoDB, una base de datos NoSQL que es muy 
-            popular en la industria del desarrollo web.
-            El proyecto principal del curso consistió en el desarrollo de un e-commerce completo, lo que me
-            permitió aplicar los conocimientos adquiridos y mejorar mis habilidades de resolución de problemas. 
-            Además, en este curso se cubrieron otros tipos de bases de datos relacionales, lo que amplió mis 
-            conocimientos en esta área."
           />
           <Details
             type="Cursos de desarrollo web Full Stack con JavaScript"
@@ -96,6 +82,20 @@ const Education = () => {
             En este curso, he aprendido a construir aplicaciones web modernas utilizando ReactJS, una de las
             bibliotecas de JavaScript más populares en la actualidad. He aprendido a crear componentes, 
             manejar estados, trabajar con eventos y utilizar herramientas como React Router y Redux."
+          />
+          <Details
+            type="Curso de desarrollo backend con NodeJS"
+            time="2021-2022"
+            place="CoderHouse"
+            info="En este curso, he aprendido a trabajar con NodeJS, un entorno de tiempo de ejecución de 
+            JavaScript que permite construir aplicaciones web del lado del servidor. También he aprendido 
+            a utilizar Express, un framework de NodeJS que permite crear aplicaciones web de manera rápida 
+            y sencilla. Además, he aprendido a trabajar con MongoDB, una base de datos NoSQL que es muy 
+            popular en la industria del desarrollo web.
+            El proyecto principal del curso consistió en el desarrollo de un e-commerce completo, lo que me
+            permitió aplicar los conocimientos adquiridos y mejorar mis habilidades de resolución de problemas. 
+            Además, en este curso se cubrieron otros tipos de bases de datos relacionales, lo que amplió mis 
+            conocimientos en esta área."
           />
         </ul>
       </div>

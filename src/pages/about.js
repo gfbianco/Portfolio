@@ -3,11 +3,12 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import profilePic from "../../public/images/profile/developer-pic-3.png";
+import profilePic from "../../public/images/profile/developer-pic-4.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
+import TransitionEffect from "@/components/TransitionEffect";
 
 //* ANIMACION DE LOS NUMEROS *//
 const AnimatedNumbers = ({ value }) => {
@@ -41,6 +42,7 @@ const about = () => {
         <title>Mittow | About Page</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText 
@@ -104,7 +106,7 @@ const about = () => {
               {/* CLIENTES */}
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={2} />+
+                  <AnimatedNumbers value={1} />+
                 </span>
                 <h2 
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 
@@ -114,9 +116,9 @@ const about = () => {
                 </h2>
               </div>
               {/* PROYECTOS */}
-              <div className="flex flex-col items-center justify-center xl:items-center">
+              <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={6} />+
+                  <AnimatedNumbers value={7} />+
                 </span>
                 <h2 
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
@@ -126,7 +128,7 @@ const about = () => {
                 </h2>
               </div>
               {/* EXPERIENCIA */}
-              <div className="flex flex-col items-center justify-center xl:items-center">
+              <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={2} />+
                 </span>

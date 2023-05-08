@@ -6,12 +6,13 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import {motion} from "framer-motion";
-import imgtest from "../../public/images/projects/test.jpg";
-import project1 from "../../public/images/projects/devdatep.png";
-import project2 from "../../public/images/projects/coderhouse.png";
-import project3 from "../../public/images/projects/pokedux.png";
-import project4 from "../../public/images/projects/notaria.png";
-import project5 from "../../public/images/projects/patichat.png";
+import TransitionEffect from "@/components/TransitionEffect";
+import devdatep from "../../public/images/projects/devdatep.png";
+import coderhouse from "../../public/images/projects/coderhouse.png";
+import pokedux from "../../public/images/projects/pokedux.png";
+import notaria from "../../public/images/projects/notaria.png";
+import patichat from "../../public/images/projects/patichat.png";
+import portafolio from "../../public/images/projects/portafolio.png";
 
 //* INSTANCIANDO LA IMAGEN CON LA LIBRERIA MOTION *//
 const FramerImage = motion(Image);
@@ -168,6 +169,7 @@ const projects = () => {
         <title>Mittow | Projects Page</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
@@ -181,13 +183,13 @@ const projects = () => {
             {/* PROYECTO 1 (DESTACADO) */}
             <div className="col-span-12">
               <FeaturedProject
-                title="E.R.P. para la Empresa Devdatep Consulting E.I.R.L."
-                img={project1}
-                summary="Se utilizo tecnologías como ReactJS, Tailwind CSS, Gitlab y Hostinger, 
+                title="Portafolio con Next.js"
+                img={portafolio}
+                summary="Se utilizo tecnologías: NextJS, Tailwind CSS, Gitlab y Hostinger, 
                 para el desarrollo de un ERP para gestionar los procesos internos de la empresa."
-                link="https://intranet.devdatep.com/"
-                github="/"
-                type="Proyecto Devdatep"
+                link="/"
+                github="https://github.com/Mittow/project-portfolio"
+                type="Proyecto Personal"
               />
             </div>
 
@@ -195,7 +197,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="E-Commerce"
-                img={project2}
+                img={coderhouse}
                 link="https://proyecto-coderhouse.onrender.com/"
                 github="https://github.com/Mittow/proyecto-coderhouse"
                 type="Proyecto CoderHouse"
@@ -206,23 +208,23 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Pokedux"
-                img={project3}
+                img={pokedux}
                 link="https://pokedux-platzi.netlify.app/"
                 github="https://github.com/Mittow/pokedux"
                 type="Proyecto Platzi"
               />
             </div>
 
-            {/* PROYECTO 4 (DESTACADO) */}
+            {/* PROYECTO 1 (DESTACADO) */}
             <div className="col-span-12">
               <FeaturedProject
-                title="E.R.P. para digitalizar los procesos de una Notaria"
-                img={project4}
-                summary="Se utilizo tecnologías como NodeJS, Express, PostgreSQL y AWS, para el  
-                desarrollo de un ERP para digitalizar los procesos internos de una notaria."
-                link="/"
-                github="/"
-                type="Proyecto Notaria"
+                title="E.R.P. para la Empresa Devdatep Consulting E.I.R.L."
+                img={devdatep}
+                summary="Se utilizo tecnologías: ReactJS, Tailwind CSS, Gitlab y Hostinger, 
+                para el desarrollo de un ERP para gestionar los procesos internos de la empresa."
+                link="/confidentiality"
+                github="https://github.com/404"
+                type="Proyecto Devdatep"
               />
             </div>
 
@@ -230,7 +232,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="PatiChat Frontend"
-                img={project5}
+                img={patichat}
                 link="https://patichat.onrender.com"
                 github="https://github.com/Mittow/front-patichat"
                 type="Proyecto Personal"
@@ -241,12 +243,26 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Patichat Backend"
-                img={project5}
+                img={patichat}
                 link="https://patichat-backend.onrender.com"
                 github="https://github.com/Mittow/back-patichat"
                 type="Proyecto Personal"
               />
             </div>
+
+            {/* PROYECTO 4 (DESTACADO) */}
+            <div className="col-span-12">
+              <FeaturedProject
+                title="E.R.P. para digitalizar los procesos de una Notaria"
+                img={notaria}
+                summary="Se utilizo tecnologías: NodeJS, Express, PostgreSQL y AWS, para el  
+                desarrollo de un ERP para digitalizar los procesos internos de una notaria."
+                link="/confidentiality"
+                github="https://github.com/404"
+                type="Proyecto Notaria"
+              />
+            </div>
+            
           </div>
         </Layout>
       </main>
