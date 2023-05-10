@@ -63,7 +63,7 @@ const Experience = () => {
             position="Backend Developer"
             company="CoderGods"
             companyLink="https://www.linkedin.com/company/coder-gods/"
-            time="Octubre 2021 - Abril 2022"
+            time="Octubre 2021 - Septiembre 2022"
             address="Lima, Perú"
             work="Durante mi experiencia como desarrollador backend, tuve la
               oportunidad para trabajar en un proyecto para un notario. Como
@@ -82,11 +82,11 @@ const Experience = () => {
             position="Frontend Developer"
             company="Devdatep Consulting E.I.R.L"
             companyLink="https://www.linkedin.com/company/devdatep-consulting/"
-            time="Setiembre 2022 - Marzo 2023"
+            time="Septiembre 2022 - Marzo 2023"
             address="Lima, Perú"
             work="Durante mi experiencia como desarrollador frontend, tuve la
-              oportunidad de liderar el desarrollo de un sistema web interno
-              para la compañía. Usé tecnologías como React JS, TailwindCSS,
+              oportunidad de desarrollar un sistema web interno
+              para la empresa. Usé tecnologías como React JS, TailwindCSS,
               Gitlab y Hostinger para trabajar de manera eficiente y eficaz para
               desarrollar la plataforma.
               Además de programar, también tuve un rol activo en el proceso

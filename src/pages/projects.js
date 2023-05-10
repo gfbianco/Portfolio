@@ -215,7 +215,7 @@ const projects = () => {
               />
             </div>
 
-            {/* PROYECTO 1 (DESTACADO) */}
+            {/* PROYECTO 4 (DESTACADO) */}
             <div className="col-span-12">
               <FeaturedProject
                 title="E.R.P. para la Empresa Devdatep Consulting E.I.R.L."
@@ -250,7 +250,7 @@ const projects = () => {
               />
             </div>
 
-            {/* PROYECTO 4 (DESTACADO) */}
+            {/* PROYECTO 7 (DESTACADO) */}
             <div className="col-span-12">
               <FeaturedProject
                 title="E.R.P. para digitalizar los procesos de una Notaria"
