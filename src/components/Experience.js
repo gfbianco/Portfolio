@@ -63,7 +63,7 @@ const Experience = () => {
             position="Backend Developer"
             company="CoderGods"
             companyLink="https://www.linkedin.com/company/coder-gods/"
-            time="Octubre 2021 - Septiembre 2022"
+            time="Octubre 2021 - Abril 2022"
             address="Lima, Perú"
             work="Durante mi experiencia como desarrollador backend, tuve la
               oportunidad para trabajar en un proyecto para un notario. Como
