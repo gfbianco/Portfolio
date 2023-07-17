@@ -60,6 +60,23 @@ const Experience = () => {
         {/* EXPERIENCIAS */}
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Frontend Developer"
+            company="Devdatep Consulting E.I.R.L"
+            companyLink="https://www.linkedin.com/company/devdatep-consulting/"
+            time="Septiembre 2022 - Marzo 2023"
+            address="Lima, Perú"
+            work="Durante mi experiencia como desarrollador frontend, tuve la
+              oportunidad de desarrollar un sistema web interno
+              para la empresa. Usé tecnologías como React JS, TailwindCSS,
+              Gitlab y Hostinger para trabajar de manera eficiente y eficaz para
+              desarrollar la plataforma.
+              Además de programar, también tuve un rol activo en el proceso
+              de despliegue del sistema web, que me permitió entender el
+              ciclo de vida completo de un proyecto desde desarrollo hasta la
+              implementación.            
+              "
+          />
+          <Details
             position="Backend Developer"
             company="CoderGods"
             companyLink="https://www.linkedin.com/company/coder-gods/"
@@ -76,23 +93,6 @@ const Experience = () => {
               detectar errores a tiempo. Además, trabajé de cerca con el
               equipo frontend para garantizar integración suave y consistente
               entre el backend y la interfaz de usuario del producto.
-              "
-          />
-          <Details
-            position="Frontend Developer"
-            company="Devdatep Consulting E.I.R.L"
-            companyLink="https://www.linkedin.com/company/devdatep-consulting/"
-            time="Septiembre 2022 - Marzo 2023"
-            address="Lima, Perú"
-            work="Durante mi experiencia como desarrollador frontend, tuve la
-              oportunidad de desarrollar un sistema web interno
-              para la empresa. Usé tecnologías como React JS, TailwindCSS,
-              Gitlab y Hostinger para trabajar de manera eficiente y eficaz para
-              desarrollar la plataforma.
-              Además de programar, también tuve un rol activo en el proceso
-              de despliegue del sistema web, que me permitió entender el
-              ciclo de vida completo de un proyecto desde desarrollo hasta la
-              implementación.            
               "
           />
         </ul>

@@ -218,18 +218,18 @@ const projects = () => {
             {/* PROYECTO 4 (DESTACADO) */}
             <div className="col-span-12">
               <FeaturedProject
-                title="E.R.P. para la Empresa Devdatep Consulting E.I.R.L."
+                title="ERP para la Empresa Devdatep Consulting E.I.R.L."
                 img={devdatep}
                 summary="Se utilizo tecnologías: ReactJS, Tailwind CSS, Gitlab y Hostinger, 
                 para el desarrollo de un ERP para gestionar los procesos internos de la empresa."
-                link="/confidentiality"
+                link="https://intranet.devdatep.com/"
                 github="https://github.com/404"
                 type="Proyecto Devdatep"
               />
             </div>
-
+            
             {/* PROYECTO 5 */}
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="PatiChat Frontend"
                 img={patichat}
@@ -237,10 +237,10 @@ const projects = () => {
                 github="https://github.com/Mittow/front-patichat"
                 type="Proyecto Personal"
               />
-            </div>
+            </div> */}
 
             {/* PROYECTO 6 */}
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Patichat Backend"
                 img={patichat}
@@ -248,12 +248,24 @@ const projects = () => {
                 github="https://github.com/Mittow/back-patichat"
                 type="Proyecto Personal"
               />
-            </div>
+            </div> */}
 
+            {/* PROYECTO 6 (DESTACADO) */}
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Patichat"
+                img={patichat}
+                summary="Se utilizo tecnologías: ReactJS, Tailwind, NodeJS, Express, Mongo Atlas 
+                para el desarrollo de un Chat."
+                link="https://patichat.onrender.com"
+                github="https://github.com/Mittow/front-patichat"
+                type="Proyecto Personal"
+              />
+            </div>
             {/* PROYECTO 7 (DESTACADO) */}
             <div className="col-span-12">
               <FeaturedProject
-                title="E.R.P. para digitalizar los procesos de una Notaria"
+                title="ERP para digitalizar los procesos de una Notaria"
                 img={notaria}
                 summary="Se utilizo tecnologías: NodeJS, Express, PostgreSQL y AWS, para el  
                 desarrollo de un ERP para digitalizar los procesos internos de una notaria."
