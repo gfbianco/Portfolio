@@ -60,9 +60,9 @@ const about = () => {
               </h2>
               {/* TEXTO DEL PERFIL */}
               <p className="font-medium">
-                ¡Hola! Soy un desarrollador web full stack MERN con experiencia
-                en Node.js, Express, PostgreSQL, MySQL, MongoDB, React.js,
-                TailwindCSS y sistemas de versionamiento como Github y Gitlab.
+                ¡Hola! Soy un desarrollador web front-end con experiencia en tecnologías
+                de JavaScript: React.js, TypeScript, Redux, TailwindCSS y sistemas de 
+                versionamiento Github y Gitlab.
               </p>
               <p className="my-4 font-medium">
                 Mi enfoque principal es crear soluciones web escalables y
@@ -72,7 +72,7 @@ const about = () => {
                 proyecto y superar las expectativas de los clientes.
               </p>
               <p className="font-medium">
-                Si estás buscando un desarrollador web full stack MERN para tu
+                Si estás buscando un desarrollador web front-end para tu
                 próximo proyecto, ¡no dudes en contactarme! Estoy emocionado de
                 colaborar contigo y crear una solución web excepcional.
               </p>
@@ -118,7 +118,7 @@ const about = () => {
               {/* PROYECTOS */}
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={5} />+
+                  <AnimatedNumbers value={6} />+
                 </span>
                 <h2 
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75

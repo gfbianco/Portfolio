@@ -1,18 +1,20 @@
 import AnimatedText from "@/components/AnimatedText";
-import { GithubIcon } from "@/components/Icons";
+import TransitionEffect from "@/components/TransitionEffect";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { GithubIcon } from "@/components/Icons";
 import {motion} from "framer-motion";
-import TransitionEffect from "@/components/TransitionEffect";
+
 import devdatep from "../../public/images/projects/devdatep.png";
 import coderhouse from "../../public/images/projects/coderhouse.png";
-import pokedux from "../../public/images/projects/pokedux.png";
 import notaria from "../../public/images/projects/notaria.png";
 import patichat from "../../public/images/projects/patichat.png";
 import portafolio from "../../public/images/projects/portafolio.png";
+import pokedux from "../../public/images/projects/pokedux.png";
+import starapp from "../../public/images/projects/starapp.png";
 
 //* INSTANCIANDO LA IMAGEN CON LA LIBRERIA MOTION *//
 const FramerImage = motion(Image);
@@ -207,11 +209,11 @@ const projects = () => {
             {/* PROYECTO 3 */}
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Pokedux"
-                img={pokedux}
-                link="https://pokedux-platzi.netlify.app/"
-                github="https://github.com/Mittow/pokedux"
-                type="Proyecto Platzi"
+                title="StarApp"
+                img={starapp}
+                link="https://starapp-galaxy.netlify.app/"
+                github="https://github.com/Mittow/StarApp"
+                type="Proyecto Personal"
               />
             </div>
 
@@ -250,19 +252,29 @@ const projects = () => {
               />
             </div> */}
 
-            {/* PROYECTO 6 (DESTACADO) */}
-            <div className="col-span-12">
-              <FeaturedProject
+            {/* PROYECTO 6 */}
+            <div className="col-span-6 sm:col-span-12">
+              <Project
                 title="Patichat"
                 img={patichat}
-                summary="Se utilizo tecnologías: ReactJS, Tailwind, NodeJS, Express, Mongo Atlas 
-                para el desarrollo de un Chat."
                 link="https://patichat.onrender.com"
                 github="https://github.com/Mittow/front-patichat"
                 type="Proyecto Personal"
               />
             </div>
-            {/* PROYECTO 7 (DESTACADO) */}
+
+            {/* PROYECTO 7 */}
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Pokedux"
+                img={pokedux}
+                link="https://pokedux-platzi.netlify.app/"
+                github="https://github.com/Mittow/pokedux"
+                type="Proyecto Platzi"
+              />
+            </div>
+
+            {/* PROYECTO 8 (DESTACADO) */}
             <div className="col-span-12">
               <FeaturedProject
                 title="ERP para digitalizar los procesos de una Notaria"

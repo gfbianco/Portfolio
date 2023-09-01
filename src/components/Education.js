@@ -50,7 +50,7 @@ const Education = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
             type="Egresado de Ingeniería Informática"
-            time="2017-2023"
+            time="2017-2022"
             place="Universidad Nacional Federico Villarreal"
             info="Como estudiante de Ingeniería Informática en la Universidad Nacional Federico 
             Villarreal, he adquirido una formación completa en el campo de la informática. Durante mi carrera, 
