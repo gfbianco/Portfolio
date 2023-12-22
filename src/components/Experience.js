@@ -60,10 +60,20 @@ const Experience = () => {
         {/* EXPERIENCIAS */}
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Analista QA"
+            company="TechMahindra"
+            companyLink="https://www.linkedin.com/company/devdatep-consulting/"
+            time="Octubre 2023 - Actualidad"
+            address="Lima, Perú"
+            work="Elaborando, diseñando y implementando pruebas unitarias, funcionales, 
+            integrales, de humo, etc. Utilizando tecnologías como Jira, RTC, PL/SQL, 
+            SoapUI, Putty y FileZilla."
+          />
+          <Details
             position="Frontend Developer"
             company="Devdatep Consulting E.I.R.L"
             companyLink="https://www.linkedin.com/company/devdatep-consulting/"
-            time="Septiembre 2022 - Marzo 2023"
+            time="Noviembre 2022 - Octubre 2023"
             address="Lima, Perú"
             work="Durante mi experiencia como desarrollador frontend, tuve la
               oportunidad de desarrollar un sistema web interno
@@ -80,7 +90,7 @@ const Experience = () => {
             position="Backend Developer"
             company="CoderGods"
             companyLink="https://www.linkedin.com/company/coder-gods/"
-            time="Octubre 2021 - Abril 2022"
+            time="Septiembre 2021 - Agosto 2022"
             address="Lima, Perú"
             work="Durante mi experiencia como desarrollador backend, tuve la
               oportunidad para trabajar en un proyecto para un notario. Como
