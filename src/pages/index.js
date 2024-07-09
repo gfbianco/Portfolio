@@ -20,11 +20,11 @@ export default function Home() {
       <main className="flex min-h-screen items-center text-dark dark:text-light sm:items-start">
         <Layout className="!pt-0 md:!pt-16 sm:!pt-16">
           <div className="flex items-center justify-between w-full md:flex-col">
-
             {/* IMAGEN PRINCIPAL */}
             <div className="w-1/2 lg:hidden md:inline-block md:w-full">
-              <Image 
-                src={profilePic} alt="Imagen de Franco" 
+              <Image
+                src={profilePic}
+                alt="Imagen de Franco"
                 className="w-full h-auto"
                 priority
                 sizes="(max-width: 768px) 100vw,
@@ -36,23 +36,23 @@ export default function Home() {
             {/* TITULO DEL TEXTO */}
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Front-End Developer"
-                className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl
+                text="Software Developer"
+                className="!text-5xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl
                 md:!text-5xl sm:!text-3xl"
               />
 
               {/* TEXTO */}
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                Como desarrollador front-end, me dedico a convertir ideas en
-                aplicaciones web innovadoras. Explore mis últimos proyectos
-                donde muestro mi experiencia en el desarrollo web con
-                javascript.
+                Soy un profesional apasionado por el mundo de la informática,
+                con experiencia en despligue de aplicaciones, testeando y
+                desarrollando software. Soy una persona responsable, adaptable y
+                comprometido con mi trabajo.
               </p>
 
               {/* BOTONES DE CV Y CONTACT */}
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="/cv.pdf"
+                  href="/Gian_Bianco.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg 
                   text-lg font-semibold hover:bg-light hover:text-dark border-2 

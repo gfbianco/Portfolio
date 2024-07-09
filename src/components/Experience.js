@@ -60,20 +60,34 @@ const Experience = () => {
         {/* EXPERIENCIAS */}
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Analista QA"
-            company="TechMahindra"
-            companyLink="https://www.linkedin.com/company/devdatep-consulting/"
-            time="Octubre 2023 - Actualidad"
+            position="Deployment Analyst"
+            company="Tech Mahindra"
+            companyLink="https://www.linkedin.com/company/tech-mahindra/"
+            time="Febrero 2023 - Julio 2024"
             address="Lima, Perú"
-            work="Elaborando, diseñando y implementando pruebas unitarias, funcionales, 
-            integrales, de humo, etc. Utilizando tecnologías como Jira, RTC, PL/SQL, 
-            SoapUI, Putty y FileZilla."
+            work="Instalaciones de aplicaciones (.NET y JAVA), servicios (REST y SOAP), 
+            de base de datos (PL/SQL), en el ambiente de QA para sus posteriores pruebas. 
+            Se utilizó las siguientes tecnologías: Weblogic para la instalación de 
+            servicios (java), Filezilla para la transferencia de componentes (FTP) al 
+            servidor, IBM Rational Team Concert para la gestión, homologación y validaciones 
+            de componentes y fuentes entre ambientes, además se utilizó la plataforma Jira 
+            para la gestión de pases y status de las instalaciones."
           />
           <Details
-            position="Frontend Developer"
+            position="Quality Analyst"
+            company="Tech Mahindra"
+            companyLink="https://www.linkedin.com/company/tech-mahindra/"
+            time="Octubre 2023 - Enero 2024"
+            address="Lima, Perú"
+            work="Elaborando, diseñando y implementando pruebas unitarias, 
+            funcionales, integrales, de humo, etc. Utilizando tecnologías como 
+            Jira, RTC, PL/SQL, SoapUI, Putty y FileZilla."
+          />
+          <Details
+            position="FrontEnd Developer"
             company="Devdatep Consulting E.I.R.L"
             companyLink="https://www.linkedin.com/company/devdatep-consulting/"
-            time="Noviembre 2022 - Octubre 2023"
+            time="Octubre 2022 - Marzo 2023"
             address="Lima, Perú"
             work="Durante mi experiencia como desarrollador frontend, tuve la
               oportunidad de desarrollar un sistema web interno
@@ -83,14 +97,13 @@ const Experience = () => {
               Además de programar, también tuve un rol activo en el proceso
               de despliegue del sistema web, que me permitió entender el
               ciclo de vida completo de un proyecto desde desarrollo hasta la
-              implementación.            
-              "
+              implementación."
           />
           <Details
             position="Backend Developer"
             company="CoderGods"
             companyLink="https://www.linkedin.com/company/coder-gods/"
-            time="Septiembre 2021 - Agosto 2022"
+            time="Noviembre 2021 - Mayo 2022"
             address="Lima, Perú"
             work="Durante mi experiencia como desarrollador backend, tuve la
               oportunidad para trabajar en un proyecto para un notario. Como
@@ -99,11 +112,11 @@ const Experience = () => {
               PostgreSQL.
               Para garantizar la calidad del código, me aseguré de seguir las
               mejores prácticas en crear API RESTful y realizar pruebas
-              unitarias TDD (Jest) para validar la funcionalidad del software y
-              detectar errores a tiempo. Además, trabajé de cerca con el
-              equipo frontend para garantizar integración suave y consistente
-              entre el backend y la interfaz de usuario del producto.
-              "
+              unitarias (Jest) para validar la funcionalidad del software y
+              detectar errores a tiempo. Además, estuve en constante comunicación 
+              con el equipo frontend y base de datos para garantizar integración 
+              suave y consistente entre el backend y la interfaz de usuario del 
+              producto."
           />
         </ul>
       </div>

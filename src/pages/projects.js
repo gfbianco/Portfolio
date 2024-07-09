@@ -175,7 +175,7 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="La imaginación trinunfa sobre el conocimiento !"
+            text="La imaginación triunfa sobre el conocimiento !"
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
 

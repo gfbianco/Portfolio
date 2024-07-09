@@ -19,7 +19,7 @@ const HireMe = () => {
         hover:text-dark animate-pulse-slow dark:bg-light dark:text-dark hover:dark:bg-dark 
         hover:dark:text-light hover:dark:border-light"
         >
-          Contrátame
+          Contáctame
         </Link>
       </div>
     </div>

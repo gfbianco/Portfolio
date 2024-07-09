@@ -35,30 +35,30 @@ const Skills = () => {
           p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2"
           whileHover={{ scale: 1.05 }}
         >
-          Web
+          SKILLS
         </motion.div>
 
         {/* SKILLS FRONTEND */}
         <Skill name="ReactJS" x="0vw" y="9vw" />
-        <Skill name="NextJS" x="-8vw" y="15vw" />
-        <Skill name="Inglés A2" x="0vw" y="21vw" />
+        <Skill name="Angular" x="-8vw" y="15vw" />
         <Skill name="GitHub" x="-15vw" y="0vw" />
         <Skill name="Gitlab" x="15vw" y="0vw" />
-        <Skill name="HTML" x="-22vw" y="-8vw" />
-        <Skill name="CSS" x="-22vw" y="8vw" />
-        <Skill name="Tailwind" x="-36vw" y="0vw" />
-        <Skill name="Figma" x="-25vw" y="-18vw" />
-        <Skill name="TDD" x="-25vw" y="18vw" />
+        <Skill name="HTML 5" x="-22vw" y="-8vw" />
+        <Skill name="CSS 3" x="-22vw" y="8vw" />
+        <Skill name="Boostrap" x="-36vw" y="0vw" />
+        <Skill name="Tailwind" x="-25vw" y="-18vw" />
+        <Skill name="Sass" x="-25vw" y="18vw" />
 
         {/* SKILLS BACKEND */}
-        <Skill name="NodeJS" x="0vw" y="-9vw" />
-        <Skill name="JavaScript" x="0vw" y="-21vw" />
-        <Skill name="Express" x="8vw" y="-15vw" />
-        <Skill name="TypeScript" x="36vw" y="0vw" />
-        <Skill name="PostgreSQL" x="22vw" y="-8vw" />
-        <Skill name="MongoDB" x="22vw" y="8vw" />
-        <Skill name="MySQL" x="25vw" y="-18vw" />
+        <Skill name="JavaScript" x="0vw" y="-9vw" />
+        <Skill name="Java" x="0vw" y="-21vw" />
+        <Skill name="JSP" x="8vw" y="-15vw" />
+        <Skill name="PostgreSQL" x="36vw" y="0vw" />
+        <Skill name="PL/SQL" x="22vw" y="-8vw" />
+        <Skill name="MySQL" x="22vw" y="8vw" />
+        <Skill name="Weblogic" x="25vw" y="-18vw" />
         <Skill name="AWS" x="25vw" y="18vw" />
+        <Skill name="Inglés B1" x="0vw" y="21vw" />
       </div>
     </>
   );

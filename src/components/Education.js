@@ -16,7 +16,9 @@ const Details = ({ type, time, place, info }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
       >
-        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">{type}</h3>
+        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
+          {type}
+        </h3>
         <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
           {time} | {place}
         </span>
@@ -36,7 +38,9 @@ const Education = () => {
 
   return (
     <div className="my-64">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">Educación</h2>
+      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+        Educación
+      </h2>
 
       <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
         {/* BARRA CON ANIMACION */}
@@ -49,8 +53,8 @@ const Education = () => {
         {/* EXPERIENCIAS */}
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Egresado de Ingeniería Informática"
-            time="2017-2022"
+            type="Bachiller en Ingeniería Informática"
+            time="2017-2023"
             place="Universidad Nacional Federico Villarreal"
             info="Como estudiante de Ingeniería Informática en la Universidad Nacional Federico 
             Villarreal, he adquirido una formación completa en el campo de la informática. Durante mi carrera, 
@@ -60,6 +64,14 @@ const Education = () => {
             incluyendo proyectos de software y proyectos de investigación en inteligencia artificial. Estos 
             proyectos me han permitido aplicar los conocimientos adquiridos en clase y mejorar mis habilidades
             de resolución de problemas en situaciones del mundo real."
+          />
+          <Details
+            type="Curso de Java Developer"
+            time="2024-2024"
+            place="Sistemas Uni"
+            info="Los cursos de desarrollo de aplicaciones en Java que he llevado en la Universidad Nacional de Ingeniería 
+            me ha brindado un conocimientos para comprender mejor las tecnologías orientadas a la creación de aplicaciones 
+            de escritorio y web realizados con el lenguaje de programación java."
           />
           <Details
             type="Cursos de desarrollo web Full Stack con JavaScript"
