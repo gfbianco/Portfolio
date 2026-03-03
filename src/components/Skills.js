@@ -39,26 +39,26 @@ const Skills = () => {
         </motion.div>
 
         {/* SKILLS FRONTEND */}
-        <Skill name="ReactJS" x="0vw" y="9vw" />
-        <Skill name="Angular" x="-8vw" y="15vw" />
+        <Skill name="Angular" x="0vw" y="9vw" />
+        <Skill name="React" x="-8vw" y="15vw" />
         <Skill name="GitHub" x="-15vw" y="0vw" />
         <Skill name="Gitlab" x="15vw" y="0vw" />
         <Skill name="HTML 5" x="-22vw" y="-8vw" />
         <Skill name="CSS 3" x="-22vw" y="8vw" />
         <Skill name="Boostrap" x="-36vw" y="0vw" />
         <Skill name="Tailwind" x="-25vw" y="-18vw" />
-        <Skill name="Sass" x="-25vw" y="18vw" />
+        <Skill name="SASS" x="-25vw" y="18vw" />
 
         {/* SKILLS BACKEND */}
-        <Skill name="JavaScript" x="0vw" y="-9vw" />
-        <Skill name="Java" x="0vw" y="-21vw" />
-        <Skill name="JSP" x="8vw" y="-15vw" />
-        <Skill name="PostgreSQL" x="36vw" y="0vw" />
-        <Skill name="PL/SQL" x="22vw" y="-8vw" />
-        <Skill name="MySQL" x="22vw" y="8vw" />
-        <Skill name="Weblogic" x="25vw" y="-18vw" />
-        <Skill name="AWS" x="25vw" y="18vw" />
-        <Skill name="Inglés B1" x="0vw" y="21vw" />
+        <Skill name="Java" x="0vw" y="-9vw" />
+        <Skill name="Spring Boot" x="0vw" y="-21vw" />
+        <Skill name="NodeJS" x="8vw" y="-15vw" />
+        <Skill name="PL/SQL" x="36vw" y="0vw" />
+        <Skill name="MySQL" x="22vw" y="-8vw" />
+        <Skill name="PostgreSQL" x="22vw" y="8vw" />
+        <Skill name="AWS / Azure" x="25vw" y="-18vw" />
+        <Skill name="Databricks" x="25vw" y="18vw" />
+        <Skill name="Blue Prims" x="0vw" y="21vw" />
       </div>
     </>
   );

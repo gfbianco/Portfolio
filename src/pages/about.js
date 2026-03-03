@@ -56,13 +56,12 @@ const about = () => {
               md:order-2 md:col-span-8"
             >
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                Biografía
+                Sobre Mí
               </h2>
               {/* TEXTO DEL PERFIL */}
               <p className="font-medium">
-                ¡Hola! Soy un desarrollador de software con experiencia en
-                despliegue de aplicaciones, testeando y desarrollando software
-                con tecnologías de Java y JavaScript.
+                ¡Hola! Soy un desarrollador de software con experiencia en testing, 
+                despliegue, desarrollo y automatización de aplicaciones y páginas web. 
               </p>
               <p className="my-4 font-medium">
                 Mi enfoque principal es crear soluciones de software escalables
@@ -106,7 +105,7 @@ const about = () => {
               {/* CLIENTES */}
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={3} />+
+                  <AnimatedNumbers value={9} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 
@@ -118,7 +117,7 @@ const about = () => {
               {/* PROYECTOS */}
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={5} />+
+                  <AnimatedNumbers value={9} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
@@ -130,7 +129,7 @@ const about = () => {
               {/* EXPERIENCIA */}
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={1} />+
+                  <AnimatedNumbers value={9} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75

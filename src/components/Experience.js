@@ -60,10 +60,31 @@ const Experience = () => {
         {/* EXPERIENCIAS */}
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Development Analyst"
+            company="Indra Group"
+            companyLink="https://www.linkedin.com/company/indragroupglobal/posts/?feedView=all"
+            time="Agosto 2024 - Actualidad"
+            address="Lima, Perú"
+            work="Desarrollo y mantenimiento de aplicaciones empresariales utilizando 
+            Java, Spring Boot, JavaScript y Angular, asegurando escalabilidad, rendimiento y 
+            buenas prácticas de arquitectura.
+            Diseño y optimización de consultas y procedimientos almacenados en PL/SQL 
+            y MySQL, mejorando tiempos de respuesta y eficiencia en el acceso a datos.
+            Implementación y optimización de procesos de replicación de datos (Full Load y CDC) 
+            con Qlik Replicate, orientados a entornos cloud en AWS, garantizando integridad y 
+            disponibilidad de la información en el cloud.
+            Migración de procesos SQL hacia PySpark en entornos Databricks, integrando servicios 
+            del ecosistema AWS para procesamiento distribuido y analítica.
+            Implementación de mecanismos de cifrado de datos sensibles mediante AWS KMS, 
+            fortaleciendo el cumplimiento de estándares de seguridad y protección de información.
+            Desarrollo y soporte de automatizaciones de procesos de negocio utilizando Blue Prism, 
+            contribuyendo a la eficiencia operativa y reducción de tareas manuales."
+          />
+          <Details
             position="Deployment Analyst"
             company="Tech Mahindra"
             companyLink="https://www.linkedin.com/company/tech-mahindra/"
-            time="Febrero 2023 - Julio 2024"
+            time="Febrero 2024 - Julio 2024"
             address="Lima, Perú"
             work="Instalaciones de aplicaciones (.NET y JAVA), servicios (REST y SOAP), 
             de base de datos (PL/SQL), en el ambiente de QA para sus posteriores pruebas. 

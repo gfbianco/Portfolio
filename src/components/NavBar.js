@@ -110,7 +110,7 @@ const NavBar = () => {
         <nav>
           <CustomLink href="/" title="Principal" className="mr-4" />
           <CustomLink href="/about" title="Acerca de mí" className="mx-4" />
-          <CustomLink href="/projects" title="Proyectos" className="mx-4" />
+          <CustomLink href="/projects" title="Proyectos (en construcción ⚙️)" className="mx-4" />
         </nav>
 
         {/* REDES SOLCIALES */}

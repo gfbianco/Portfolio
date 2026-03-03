@@ -36,7 +36,7 @@ export default function Home() {
             {/* TITULO DEL TEXTO */}
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Software Developer"
+                text="Computer Engineer"
                 className="!text-5xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl
                 md:!text-5xl sm:!text-3xl"
               />
@@ -44,9 +44,9 @@ export default function Home() {
               {/* TEXTO */}
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 Soy un profesional apasionado por el mundo de la informática,
-                con experiencia en despligue de aplicaciones, testeando y
-                desarrollando software. Soy una persona responsable, adaptable y
-                comprometido con mi trabajo.
+                con experiencia en automatización, despligue, testeo y desarrollo
+                de aplicaciones. Soy una persona responsable, adaptable y comprometido 
+                con mi trabajo.
               </p>
 
               {/* BOTONES DE CV Y CONTACT */}
