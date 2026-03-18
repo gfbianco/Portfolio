@@ -168,7 +168,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Mittow | Projects Page</title>
+        <title>gfbianco | Projects Page</title>
         <meta name="description" content="any description" />
       </Head>
       <TransitionEffect />
@@ -190,7 +190,7 @@ const projects = () => {
                 summary="Se utilizo tecnologías: NextJS, Tailwind CSS, Gitlab y Hostinger, 
                 para el desarrollo de un ERP para gestionar los procesos internos de la empresa."
                 link="/"
-                github="https://github.com/Mittow/project-portfolio"
+                github="https://github.com/gfbianco/project-portfolio"
                 type="Proyecto Personal"
               />
             </div>
@@ -201,7 +201,7 @@ const projects = () => {
                 title="E-Commerce"
                 img={coderhouse}
                 link="https://proyecto-coderhouse.onrender.com/"
-                github="https://github.com/Mittow/proyecto-coderhouse"
+                github="https://github.com/gfbianco/proyecto-coderhouse"
                 type="Proyecto CoderHouse"
               />
             </div>
@@ -212,7 +212,7 @@ const projects = () => {
                 title="StarApp"
                 img={starapp}
                 link="https://starapp-galaxy.netlify.app/"
-                github="https://github.com/Mittow/StarApp"
+                github="https://github.com/gfbianco/StarApp"
                 type="Proyecto Personal"
               />
             </div>
@@ -236,7 +236,7 @@ const projects = () => {
                 title="PatiChat Frontend"
                 img={patichat}
                 link="https://patichat.onrender.com"
-                github="https://github.com/Mittow/front-patichat"
+                github="https://github.com/gfbianco/front-patichat"
                 type="Proyecto Personal"
               />
             </div> */}
@@ -247,7 +247,7 @@ const projects = () => {
                 title="Patichat Backend"
                 img={patichat}
                 link="https://patichat-backend.onrender.com"
-                github="https://github.com/Mittow/back-patichat"
+                github="https://github.com/gfbianco/back-patichat"
                 type="Proyecto Personal"
               />
             </div> */}
@@ -258,7 +258,7 @@ const projects = () => {
                 title="Patichat"
                 img={patichat}
                 link="https://patichat.onrender.com"
-                github="https://github.com/Mittow/front-patichat"
+                github="https://github.com/gfbianco/front-patichat"
                 type="Proyecto Personal"
               />
             </div>
@@ -268,8 +268,8 @@ const projects = () => {
               <Project
                 title="Pokedux"
                 img={pokedux}
-                link="https://pokedux-platzi.netlify.app/"
-                github="https://github.com/Mittow/pokedux"
+                link="https://pokedux-lac.vercel.app"
+                github="https://github.com/gfbianco/pokedux"
                 type="Proyecto Platzi"
               />
             </div>
