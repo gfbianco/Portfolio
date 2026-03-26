@@ -211,7 +211,7 @@ const projects = () => {
               <Project
                 title="StarApp"
                 img={starapp}
-                link="https://starapp-galaxy.netlify.app/"
+                link="https://star-app-ivory.vercel.app"
                 github="https://github.com/gfbianco/StarApp"
                 type="Proyecto Personal"
               />
